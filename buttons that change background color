@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+        <script>
+                document.addEventListener("DOMContentLoaded", () =>{
+                    document.getElementById("panic1").addEventListener('click', () => {
+                    document.body.style.background = 'blue';
+                    document.getElementById('panic1').style.background = 'blue';
+                 });
+            });
+        </script>
+    </head>
+    <body>
+        <button id="panic0">Don't panic 0</button>
+        <button id="panic1">Don't panic 1</button>
+        <button id="panic2">Don't panic 2</button>
+    </body>
+    <script>
+         document.getElementById('panic0').addEventListener('click',function(){
+                document.body.style.background = 'purple';
+                document.getElementById('panic0').style.background = 'purple';
+                });
+        document.getElementById('panic2').addEventListener('click',function(){
+                        document.body.style.background = 'green';
+                        document.getElementById('panic2').style.background = 'green';
+                    });
+    </script>
+</html>
